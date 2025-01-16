@@ -1,47 +1,66 @@
+/* General Reset */
 body {
-    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
     scroll-behavior: smooth;
 }
 
+/* Hero Section */
 .hero {
-    background: url('hero.jpg') no-repeat center center/cover;
+    background: url('hero-bg.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 100px 20px;
 }
 
-.hero-content {
-    max-width: 600px;
-    margin: 0 auto;
+.hero-content h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero-content p {
+    margin: 10px 0;
+    font-size: 1.2rem;
 }
 
 .btn {
     display: inline-block;
-    padding: 10px 20px;
     margin-top: 20px;
-    background-color: #ff6f61;
+    padding: 10px 20px;
+    background-color: #c4a771;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
+/* Sections */
 .section {
     padding: 50px 20px;
-    background-color: #f9f9f9;
+    text-align: center;
+    background-color: white;
 }
 
 .section:nth-child(even) {
-    background-color: #ffffff;
+    background-color: #f9f9f9;
 }
 
 h2 {
-    color: #333;
-    text-align: center;
+    font-size: 2rem;
+    color: #1a2112;
 }
 
+.event {
+    margin: 20px auto;
+    max-width: 600px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding: 20px;
